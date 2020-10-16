@@ -1,4 +1,4 @@
-FROM contos:latest
+FROM centos:latest
 LABEL maintainer "DataStory Hub webserver"
 MAINTAINER 2.1 hypercz@gmail.com
 RUN ["yum", "-y", "install", "httpd"]
